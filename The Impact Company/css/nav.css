@@ -1,0 +1,56 @@
+.dan{
+    border-bottom: 2px solid gold;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo{
+    align-items: center;
+    
+}
+
+
+
+.nav-links{
+    display: flex;
+}
+.nav-links li{
+    padding: 0 15px;
+}
+.nav-links li a{
+    padding: 15px;
+    color: #dbac07;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-links li a:hover{
+    background-color: black;
+    color: #fff;
+    border-radius: 16px;
+}
+.menu{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.line1, .line2, .line3{
+    width: 35px;
+    height: 3px;
+    background-color: #dbac07;
+    margin: 2px;
+}
+@media screen and (max-width: 900px) {
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu{
+        display: flex;
+    }
+}

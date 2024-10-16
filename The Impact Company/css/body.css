@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.no1 img{
+    float: left;
+    margin-right: 10px;
+    
+}
+img{
+    width: 250px;
+    height: 190px;
+}
+
+.no1{
+    padding: 45px;
+    background-color: gold;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.no2{
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+
+.no2IMG img{
+    margin-right: 37px;
+}
+.no3 img{
+    float: left;
+    margin-right: 10px;
+    height: 140px;
+    width: 150px;
+}
+.no3{
+    padding: 45px;
+    background-color: whitesmoke;
+    height: 200px;
+    margin-bottom: 50px;
+}
+footer{
+    width: 100%;
+    padding: 20px;
+    background-color: blueviolet;
+    text-align: center;
+}
